@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VDB-IT — Frontend Developer</title>
+  <meta name="description" content="Portfolio of a frontend developer focused on Angular, TypeScript, and thoughtful user interfaces.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="VDB-IT home">VDB-IT</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">Frontend developer · UI builder</p>
+        <h1>I build clean, useful interfaces for the web.</h1>
+        <p class="lead">
+          I mainly work with Angular and TypeScript, but I care more about creating
+          reliable, intuitive user experiences than about any single framework.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">View my work</a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+        <ul class="quick-facts" aria-label="Highlights">
+          <li>Angular & TypeScript</li>
+          <li>Responsive UI</li>
+          <li>Component architecture</li>
+          <li>Accessibility-minded</li>
+        </ul>
+      </div>
+
+      <div class="mountain-card" aria-hidden="true">
+        <div class="sun"></div>
+        <div class="mountain mountain-back"></div>
+        <div class="mountain mountain-mid"></div>
+        <div class="mountain mountain-front"></div>
+        <div class="ridge ridge-one"></div>
+        <div class="ridge ridge-two"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section split-section">
+      <div>
+        <p class="section-label">About</p>
+        <h2>Interfaces first.</h2>
+      </div>
+      <div class="section-copy">
+        <p>
+          I’m a developer focused on frontend engineering and user interface design.
+          My day-to-day work is centered around Angular and TypeScript, building
+          maintainable applications that feel clear and fast to use.
+        </p>
+        <p>
+          I enjoy turning requirements into polished screens, reusable components,
+          design systems, and practical workflows. I’m comfortable learning new
+          technologies when the product calls for them.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="section-label">Skills</p>
+      <h2>What I work with</h2>
+
+      <div class="skill-grid">
+        <article class="skill-card">
+          <span class="card-number">01</span>
+          <h3>Frontend</h3>
+          <p>Angular, TypeScript, JavaScript, HTML, CSS, RxJS, responsive layouts.</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="card-number">02</span>
+          <h3>UI engineering</h3>
+          <p>Reusable components, design systems, forms, state, accessibility, UX polish.</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="card-number">03</span>
+          <h3>Tooling</h3>
+          <p>Git, REST APIs, CI/CD workflows, testing, package tooling, browser devtools.</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="card-number">04</span>
+          <h3>Approach</h3>
+          <p>Clear communication, pragmatic architecture, maintainable code, fast iteration.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <p class="section-label">Selected work</p>
+      <h2>Example projects</h2>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div>
+            <p class="project-type">Web application</p>
+            <h3>Operations Dashboard</h3>
+            <p>
+              A responsive Angular dashboard for monitoring operational data, filtering
+              results, and giving teams a clear view of what needs attention.
+            </p>
+          </div>
+          <div class="project-tags">
+            <span>Angular</span>
+            <span>TypeScript</span>
+            <span>RxJS</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <p class="project-type">Design system</p>
+            <h3>Reusable UI Library</h3>
+            <p>
+              A consistent component library covering navigation, forms, data display,
+              feedback states, and common application patterns.
+            </p>
+          </div>
+          <div class="project-tags">
+            <span>Components</span>
+            <span>SCSS</span>
+            <span>Accessibility</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <p class="project-type">Customer portal</p>
+            <h3>Self-Service Experience</h3>
+            <p>
+              A streamlined portal that turns complex backend workflows into a simple,
+              guided experience for end users.
+            </p>
+          </div>
+          <div class="project-tags">
+            <span>UX</span>
+            <span>Forms</span>
+            <span>API integration</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="note">
+        Replace these examples with your real projects, screenshots, links, or case studies.
+      </p>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div>
+        <p class="section-label">Contact</p>
+        <h2>Let’s build something useful.</h2>
+        <p>
+          I’m interested in frontend, UI, and web application work where thoughtful
+          interaction design and solid engineering matter.
+        </p>
+      </div>
+      <a class="button primary" href="mailto:hello@vdb-it.eu">hello@vdb-it.eu</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> VDB-IT</span>
+    <span>Built for the web.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
